@@ -1,0 +1,48 @@
+::selection {
+  background-color: white;
+}
+
+.title {
+  color: rgb(153 104 48);
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.input {
+  margin: 0.5rem 0;
+  padding: 1rem 0.5rem;
+  width: 20rem;
+  background-color: inherit;
+  color: rgb(153 104 48);
+  border: none;
+  outline: none;
+}
+
+.data {
+  border-bottom: 1px solid rgb(153 104 48);
+  transition: all 400ms;
+}
+
+.data:hover {
+  background-color: none;
+  border-bottom: 1px solid rgb(153 104 48);
+  border-radius: 0.5rem;
+}
+
+.btn {
+  height: 3rem;
+  width: 20rem;
+  margin-top: 3rem;
+  background-color: rgb(153 104 48);
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  transition: all 400ms;
+  box-shadow: 0 0 10px antiquewhite, 0 0 10px antiquewhite;
+  color: antiquewhite
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  box-shadow: none;
+}
